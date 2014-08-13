@@ -1,0 +1,16 @@
+# Large database files
+graph7.db
+graph8.db
+graph9.db
+graph10.db
+
+special/graph7_special.db
+special/graph8_special.db
+special/graph9_special.db
+special/graph10_special.db
+
+# Temp files
+*~
+\#*
+.\#*
+*.bak
