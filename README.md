@@ -1,9 +1,8 @@
-## Encyclopedia of Finite Graphs
-### database for simple connected graphs
+## Encyclopedia of Finite Graphs (database)
 
-This is the database file for [Encyclopedia of Finite Graphs](https://github.com/thoppe/Encyclopedia-of-Finite-Graphs) project.
-This contains all of the simple connected graphs up to order 10 and a large collection of their invariants stored as an integer table.
-Up to order 6, there is a collection of "special" invariants there are stored in a custom table (see main project for details).
+This is the database module for [Encyclopedia of Finite Graphs](https://github.com/thoppe/Encyclopedia-of-Finite-Graphs) project.
+This contains all of the simple connected graphs up to order 10 and a large collection of their invariants stored in an SQLite database.
+Up to order `n<=6`, there is a collection of "special" invariants that are stored in a custom table (see main project for details).
 
 To extract the database, run (requires `pbzip2` and `split`)
 
@@ -13,7 +12,7 @@ To compress the database again, run
 
     make compress
 
-If you've cloned the Encyclopedia project, you can automatically download the database by running:
+If you've cloned the Encyclopedia project, you can automatically download an updated copy of the database by running in the Encyclopedia directory:
 
     git submodule add https://github.com/thoppe/Simple-connected-graph-invariant-database.git database
 
