@@ -18,3 +18,8 @@ If you've cloned the Encyclopedia project, you can automatically download an upd
 
 Note we are unable to store the special invariants for larger graphs due to size constraints. 
 They will have to be recomputed for `n>6`.
+
+### Updates/Notes:
+
+Please note that the original version of the database (and currently the one hosted here), lists `is_real_spectrum` as an invariant. 
+This invariant should be labeled `is_distinct_spectrum` which lists the number of simple graphs of order N with exactly N distinct eigenvalues of their adjacency matrix.
